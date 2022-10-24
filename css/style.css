@@ -1,0 +1,64 @@
+.header {
+  background-color: #2b4074;
+  padding: 17px 61px;
+  margin-bottom: 0;
+}
+
+.intro {
+  background-image: url("/images/bg-img.svg");
+  color: white;
+  text-align: center;
+  height: 668px;
+  width: 100%;
+  background-color: #21212180;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.intro h1 {
+  font-size: 96px;
+  line-height: 96px;
+  padding-top: 107px;
+  margin-top: 0;
+}
+
+.intro h2 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.main-button {
+  color: #f9f6e5;
+  background-color: #2b4074;
+  padding: 18px 46px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 28px;
+}
+
+.promo {
+  background-color: #2b4074;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 50px 150px;
+}
+
+.promo h3 {
+  font-size: 24px;
+}
+
+.promo p {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.promo-button {
+  font-size: 18px;
+  padding: 16px 15px;
+  border-radius: 3px;
+  background-color: #f9f6e5;
+  color: #2b4074;
+  border: none;
+  margin: 20px 0 0 200px;
+}
