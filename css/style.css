@@ -1,16 +1,22 @@
-.header {
+.container {
+  max-width: 1440px;
+  padding: 0;
+}
+
+header {
   background-color: #2b4074;
   padding: 17px 61px;
   margin-bottom: 0;
+  position: relative;
 }
 
-#menu-button {
+.menu-button {
   position: absolute;
   top: 30px;
   right: 150px;
 }
 
-#menu-button-lines {
+.menu-button-lines {
   position: absolute;
   top: 40px;
   right: 159px;
@@ -44,6 +50,7 @@
   line-height: 96px;
   padding-top: 107px;
   margin-top: 0;
+  text-transform: uppercase;
 }
 
 .intro h2 {
@@ -58,6 +65,7 @@
   border-radius: 3px;
   border: none;
   margin-top: 28px;
+  text-transform: uppercase;
 }
 
 .promo {
@@ -85,12 +93,13 @@
   color: #2b4074;
   border: none;
   margin: 20px 0 0 200px;
+  text-transform: uppercase;
 }
 
 .services-content {
   font-family: "Roboto", sans-serif;
-  padding-top: 62px;
-  padding-left: 90px;
+  padding-top: 90px;
+  padding-left: 62px;
 }
 
 .services-content h2 {
@@ -158,6 +167,36 @@
 }
 
 .portfolio img {
-  padding: 74px 0 23px;
-  height: 250px;
+  width: 268px;
+  height: 239px;
+  margin: 74px 0 23px;
+  margin-right: 23.5px;
+  border-radius: 4px;
+}
+
+.team {
+  width: 460px;
+  height: 420px;
+  margin: 80px 0 109px 150px;
+  border-radius: 4px;
+}
+
+.video-block h2 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 80px 0 20px;
+}
+
+.video-block p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #9b9b9b;
+  margin-top: 29px;
+}
+
+.team-content {
+  padding-left: 0;
 }
