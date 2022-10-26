@@ -73,6 +73,7 @@ header {
   color: white;
   font-family: "Roboto", sans-serif;
   padding: 50px 150px;
+  position: relative;
 }
 
 .promo h3 {
@@ -91,9 +92,11 @@ header {
   border-radius: 3px;
   background-color: #f9f6e5;
   color: #2b4074;
-  border: none;
-  margin: 20px 0 0 200px;
   text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 71px;
+  right: 149px;
 }
 
 .services-content {
@@ -199,4 +202,31 @@ header {
 
 .team-content {
   padding-left: 0;
+}
+
+.latest-news {
+  background-image: url("/images/bg-2.png");
+  height: 1044px;
+  text-align: center;
+}
+
+.latest-news h2 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #4a4a4a;
+  padding: 52px 0 0 19px;
+}
+
+.news-photo {
+  padding: 115px 136px 0 135px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.news-photo img {
+  border-radius: 4px;
+  width: 268px;
 }
