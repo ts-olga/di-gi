@@ -93,6 +93,12 @@ header {
   border: none;
   margin-top: 28px;
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .page-nav img {
@@ -135,6 +141,13 @@ header {
   position: absolute;
   top: 71px;
   right: 149px;
+  transition: all 0.2s ease-in-out;
+}
+
+.promo-button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .services {
@@ -288,9 +301,11 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .icon {
   cursor: pointer;
 }
+
 .team {
   width: 460px;
   height: 420px;
@@ -312,6 +327,12 @@ header {
   font-weight: 400;
   color: #9b9b9b;
   margin-top: 29px;
+}
+
+.video-block .main-button:hover {
+  font-weight: 500;
+  border: 1px solid var(--primary-color);
+  background-color: #ffffff;
 }
 
 .team-content {
@@ -385,8 +406,6 @@ header {
 
 .testimonial {
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
   color: #4a4a4a;
   padding: 100px 0 80px 0;
 }
@@ -394,15 +413,18 @@ header {
 .testimonial h3 {
   padding: 30px 0;
   font-size: 36px;
+  font-weight: 700;
 }
 
-.testimonial p {
+.testimonial h4 {
   font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
   padding-bottom: 80px;
   margin-bottom: 0;
 }
 
-.testimonial img {
+.testimonial div > img {
   height: 10px;
   padding-right: 8px;
 }
@@ -437,32 +459,50 @@ header {
 .footer-content h4 {
   text-transform: uppercase;
   font-size: 16px;
+  letter-spacing: 2px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   padding-bottom: 22px;
 }
 
 .footer-content p {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 20px;
   font-weight: 400;
+}
+
+td {
+  border: 1px solid #7ebf84;
+  height: 57px;
+  width: 25%;
+  text-align: center;
+}
+
+#first-cell {
+  border-left: none;
+}
+
+#last-cell {
+  border-right: none;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+table {
+  max-width: 1141px;
+  margin: 0 auto;
+  color: white;
+  padding: 26px 0 17px 0;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .widgets {
   display: flex;
   justify-content: space-between;
   padding: 80px 308px 0 151px;
-}
-
-.social {
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid #7ebf84;
-  padding: 26px 0 17px 0;
-  border-left: none;
-  border-right: none;
-  margin: 0 150px;
 }
 
 .copyright {
