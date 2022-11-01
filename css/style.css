@@ -199,7 +199,7 @@ header {
 }
 
 .services-items img {
-  padding-bottom: 28px;
+  padding-bottom: 18px;
 }
 
 .services-items h3 {
@@ -233,8 +233,26 @@ header {
   padding-top: 3px;
 }
 
-.item-image {
-  padding-right: 40px;
+.item2 img {
+  padding-bottom: 53px;
+}
+
+.item4 img {
+  padding-right: 20px;
+}
+
+.item6 {
+  padding-top: 40px;
+}
+
+.item6 img {
+  padding-bottom: 45px;
+}
+
+.item5 img,
+.item6 img,
+.item7 img {
+  padding-right: 53px;
 }
 
 .recent-work {
@@ -273,7 +291,6 @@ header {
 
 .photo-block {
   position: relative;
-  transition: all 0.5s ease-in-out;
 }
 
 .portfolio-hover {
@@ -386,9 +403,11 @@ header {
 .photo-conteiner:hover .img {
   border: 10px solid var(--primary-color);
 }
+
 .photo-conteiner:hover .info {
   display: inline;
 }
+
 .photo-conteiner:hover .sign {
   bottom: 40px;
   background-color: var(--primary-color);
@@ -396,14 +415,15 @@ header {
 }
 
 .content-block img {
+  position: static;
   border-radius: 4px;
   width: 268px;
+  transition: all 0.3s ease-in-out;
 }
 
 .content-block {
   position: relative;
   max-width: 270px;
-  transition: all 0.3s initial;
 }
 
 .content-block:hover img.photo-content {
@@ -411,15 +431,23 @@ header {
 }
 
 .content-block:hover .photo-title {
-  bottom: 50px;
+  bottom: 40px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
 
 .content-block:hover .info {
   display: block;
-  text-align: center;
   width: 25px;
+}
+
+.content-block:hover .photo-title1 {
+  bottom: 60px;
+}
+
+.content-block:hover .info5,
+.content-block:hover .info7 {
+  top: 35%;
 }
 
 .info {
@@ -428,34 +456,33 @@ header {
   left: 46%;
   cursor: pointer;
   display: none;
-  width: 3.36px;
 }
 
-.cont1 {
+.block1 {
   height: 444px;
 }
-.cont2 {
+.block2 {
   height: 344px;
 }
-.cont3 {
+.block3 {
   height: 385px;
 }
-.cont4 {
+.block4 {
   height: 215px;
 }
-.cont5 {
+.block5 {
   height: 197px;
   margin-top: 25px;
 }
-.cont6 {
+.block6 {
   height: 343px;
   margin-top: -60px;
 }
-.cont7 {
+.block7 {
   height: 218px;
   margin-top: -20px;
 }
-.cont8 {
+.block8 {
   height: 437px;
   margin-top: -190px;
 }
