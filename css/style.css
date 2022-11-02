@@ -594,7 +594,7 @@ table {
   position: relative;
 }
 
-footer a,
+.copyright a,
 a:hover {
   border: none;
   font-family: "Roboto Condensed", sans-serif;
