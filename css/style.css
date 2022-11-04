@@ -164,8 +164,9 @@ header {
 }
 
 .services-content {
-  width: 584px;
+  width: 515px;
   margin-top: 90px;
+  margin-right: 46px;
 }
 
 .services-content h2 {
@@ -186,6 +187,7 @@ header {
   font-size: 18px;
   line-height: 24px;
   color: #797979;
+  width: 351px;
   padding-top: 24px;
   padding-bottom: 134px;
 }
@@ -194,6 +196,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+  width: 84%;
 }
 
 .item {
@@ -206,24 +209,29 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.services-items img {
-  padding-bottom: 4px;
-}
-
 .services-items h3 {
+  position: relative;
   font-weight: 700;
   font-size: 16px;
+  margin-top: -8px;
+  margin-left: 8px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #4a4a4a;
 }
 
+.item2 h3 {
+  margin-top: -24px;
+}
+
 .services-items p {
   font-size: 16px;
+  width: 100%;
   padding: 10px 0 10px;
 }
 
 .hidden h3 {
+  margin-top: 3px;
   color: var(--primary-color);
 }
 
