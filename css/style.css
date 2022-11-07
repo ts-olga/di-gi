@@ -650,7 +650,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
   .container {
     max-width: 1024px;
   }
@@ -780,6 +780,10 @@ a:hover {
     margin-right: 299px;
   }
 
+  .photo-title p {
+    font-size: 18px;
+  }
+
   .photo-block .portfolio-photo {
     width: 317.23px;
     height: 282.91px;
@@ -891,5 +895,227 @@ a:hover {
   .copyright a,
   a:hover {
     right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  header {
+    padding: 17px 44px;
+  }
+
+  .intro {
+    height: 465px;
+  }
+
+  .intro h1 {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 83px 0 28px;
+    margin-left: 130px;
+    letter-spacing: 0;
+  }
+
+  .intro h2 {
+    margin-left: 93px;
+  }
+
+  .main-button {
+    margin-top: 32px;
+    padding-top: 6px;
+    padding-right: 6px;
+  }
+
+  .page-nav img {
+    margin-top: 50px;
+  }
+
+  .promo {
+    height: 187px;
+    padding: 61px 0 0 44px;
+  }
+
+  .promo h5 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .promo p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 18px;
+    letter-spacing: 0.7px;
+    width: 400px;
+  }
+
+  .promo-button {
+    top: 69px;
+    right: 42px;
+  }
+
+  .services {
+    height: 1655px;
+    justify-content: flex-start;
+  }
+
+  .services-content h2 {
+    margin-top: -2px;
+    padding-left: 272px;
+  }
+
+  .services-content h5 {
+    padding: 32px 0 21px;
+  }
+
+  .services-content p {
+    width: 689px;
+    padding-top: 25px;
+  }
+
+  .services-items {
+    height: 770px;
+    margin-top: 313px;
+  }
+
+  .item {
+    width: 50%;
+    height: 335px;
+  }
+
+  .portfolio {
+    padding: 72px 33px 0 50px;
+  }
+
+  .photo-block .portfolio-photo {
+    width: 317.23px;
+    height: 282.91px;
+  }
+
+  .video-block {
+    height: 479px;
+  }
+
+  .video-block .team {
+    width: 240px;
+    height: 227px;
+    margin: 39px 0 0 44px;
+  }
+
+  .team-content {
+    margin-left: -66px;
+  }
+
+  .team-content img {
+    width: 88.64px;
+    height: 8px;
+  }
+
+  .video-block h2 {
+    font-size: 36px;
+    line-height: 38px;
+    margin: 41px 0 11px;
+  }
+
+  .video-block p {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 1px;
+    width: 407px;
+  }
+  .video-button {
+    margin-top: 39px;
+    margin-left: -71px;
+    padding-top: 2px;
+  }
+
+  .latest-news {
+    height: 1745px;
+  }
+
+  .latest-news h2 {
+    font-size: 36px;
+    padding: 51px 0 17px 0;
+  }
+
+  .news-photo {
+    padding: 44px 102px 0 62px;
+  }
+
+  .block3 {
+    margin-top: 30px;
+  }
+
+  .block4 {
+    margin-top: -70px;
+  }
+
+  .block5 {
+    margin-top: -246px;
+    margin-left: 300px;
+  }
+
+  .block6 {
+    margin-top: 28px;
+  }
+
+  .block7 {
+    margin-top: -20px;
+    margin-right: 3px;
+  }
+
+  .block8 {
+    margin-top: -142px;
+    margin-left: 597px;
+  }
+
+  .testimonial {
+    height: 410px;
+    padding-top: 51px;
+  }
+
+  .testimonial h3 {
+    line-height: 34px;
+    padding: 37px 10px 44px 7px;
+  }
+
+  .testimonial h4 {
+    padding-bottom: 31px;
+  }
+
+  .footer-logo {
+    margin-left: 273px;
+    margin-top: 15px;
+  }
+
+  .footer-content h3 {
+    width: 690px;
+    padding: 116px 22px 41px 0px;
+  }
+
+  table {
+    width: 690px;
+    height: 67.7px;
+  }
+
+  i {
+    font-size: 22px;
+  }
+
+  .widgets {
+    flex-wrap: wrap;
+    padding: 72px 23px 0 45px;
+  }
+
+  .widgets div {
+    width: 50%;
+    margin-bottom: 36px;
+  }
+
+  .copyright a,
+  a:hover {
+    right: 13px;
   }
 }
