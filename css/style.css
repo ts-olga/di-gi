@@ -43,6 +43,7 @@ header {
 
 .intro {
   background-image: url("/images/bg-img.jpg");
+  background-size: cover;
   height: 668px;
   width: 100%;
   text-align: center;
@@ -193,6 +194,9 @@ header {
   padding-bottom: 134px;
 }
 
+.service-line {
+  display: none;
+}
 .services-items {
   display: flex;
   flex-wrap: wrap;
@@ -1383,7 +1387,6 @@ a:hover {
 
   .services {
     height: 2799px;
-    /* position: relative; */
   }
 
   .services-content {
@@ -1399,7 +1402,7 @@ a:hover {
   .services-content h5 {
     font-size: 20px;
     line-height: 24px;
-    padding: 73px 0 0px;
+    padding: 25px 0 0px;
   }
 
   .services-content p {
@@ -1411,17 +1414,20 @@ a:hover {
 
   .services-content img {
     display: none;
-    /* position: absolute;
-    top: 77px;
-    left: 111px; */
+  }
+
+  .services-content .service-line {
+    display: block;
+    margin: 20px auto;
   }
 
   .services-items {
     margin: auto;
+    margin-left: 16px;
   }
 
   .item {
-    width: 94%;
+    width: 280px;
   }
 
   .recent-work {
@@ -1569,12 +1575,20 @@ a:hover {
     width: 319px;
     text-align: center;
   }
+
   table {
     width: 100%;
   }
 
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   td {
     border: none;
+    height: 41px;
   }
 
   i {
@@ -1587,7 +1601,7 @@ a:hover {
 
   .widgets {
     text-align: center;
-    margin: 96px auto;
+    padding: 29px 19px 0 64px;
   }
 
   .copyright {
