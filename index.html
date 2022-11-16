@@ -34,16 +34,17 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="/images/logo.png" />
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+
     <title>DiGi - digital agency</title>
   </head>
   <body>
     <div class="container">
-      <header>
+      <header id="header">
         <img
           src="images/logo.png"
           alt="Logo image"
@@ -60,19 +61,42 @@
 
       <div class="intro">
         <h1>Мысли глобально</h1>
-        <h2>
-          Di Gі - это диджитал агентство полного цикла, направленное на самый
-          лучший результат наших клиентов в маркетинге, продажах и управлении
-        </h2>
+        <div class="owl-carousel owl-carousel1">
+          <div>
+            <h2>
+              Di Gі - это диджитал агентство полного цикла, направленное на
+              самый лучший результат наших клиентов в маркетинге, продажах и
+              управлении
+            </h2>
+          </div>
+          <div>
+            <h2>
+              Di Gі - это диджитал агентство полного цикла, направленное на
+              самый лучший результат наших клиентов в маркетинге, продажах и
+              управлении
+            </h2>
+          </div>
+          <div>
+            <h2>
+              Di Gі - это диджитал агентство полного цикла, направленное на
+              самый лучший результат наших клиентов в маркетинге, продажах и
+              управлении
+            </h2>
+          </div>
+        </div>
         <button class="main-button">Подробнее</button>
-        <div class="page-nav">
+        <div class="page-nav circles">
           <img src="images/intro-oval1.png" alt="" />
           <img src="images/intro-oval2.png" alt="" />
           <img src="images/intro-oval3.png" alt="" />
         </div>
         <div class="arrows">
-          <img src="images/forward.png" alt="" class="arrow-back icon" />
-          <img src="images/back.png" alt="" class="arrow-forward icon" />
+          <button class="arrow-button1">
+            <img src="images/forward.png" alt="" class="arrow-back icon" />
+          </button>
+          <button class="arrow-button2">
+            <img src="images/back.png" alt="" class="arrow-forward icon" />
+          </button>
         </div>
       </div>
 
@@ -357,16 +381,36 @@
 
       <div class="testimonial">
         <img src="images/quotes.png" alt="" />
-        <h3>
-          Если нужно создавать либо повышать имидж компании, <br />
-          то <span class="highlight">диджитал-маркетинг</span> является наиболее
-          подходящим
-        </h3>
-        <h4>- Маргарита Акулич</h4>
-        <div>
-          <img src="images/Oval 1.png" alt="" />
-          <img src="images/Oval 2.png" alt="" />
-          <img src="images/Oval 3.png" alt="" />
+        <div class="owl-carousel owl-carousel1">
+          <div>
+            <h3>
+              Если нужно создавать либо повышать имидж компании, <br />
+              то <span class="highlight">диджитал-маркетинг</span> является
+              наиболее подходящим
+            </h3>
+            <h4>- Маргарита Акулич</h4>
+          </div>
+          <div>
+            <h3>
+              Если нужно создавать либо повышать имидж компании, <br />
+              то <span class="highlight">диджитал-маркетинг</span> является
+              наиболее подходящим
+            </h3>
+            <h4>- Маргарита Акулич</h4>
+          </div>
+          <div>
+            <h3>
+              Если нужно создавать либо повышать имидж компании, <br />
+              то <span class="highlight">диджитал-маркетинг</span> является
+              наиболее подходящим
+            </h3>
+            <h4>- Маргарита Акулич</h4>
+          </div>
+        </div>
+        <div class="circles2">
+          <img src="images/Oval 1.png" alt="" class="circle2" />
+          <img src="images/Oval 2.png" alt="" class="circle2" />
+          <img src="images/Oval 3.png" alt="" class="circle2" />
         </div>
       </div>
 
@@ -379,16 +423,24 @@
           <table class="social">
             <tr>
               <td id="first-cell">
-                <i class="fa-brands fa-facebook-f social-links"></i>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <i class="fa-brands fa-facebook-f social-links"></i
+                ></a>
               </td>
               <td>
-                <i class="fa-brands fa-google-plus-g social-links"></i>
+                <a href="https://www.google.com" target="_blank">
+                  <i class="fa-brands fa-google-plus-g social-links"></i
+                ></a>
               </td>
               <td>
-                <i class="fa-brands fa-twitter social-links"></i>
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter social-links"></i
+                ></a>
               </td>
               <td id="last-cell">
-                <i class="fa-brands fa-pinterest social-links"></i>
+                <a href="https://www.pinterest.com/" target="_blank">
+                  <i class="fa-brands fa-pinterest social-links"></i
+                ></a>
               </td>
             </tr>
           </table>
@@ -397,7 +449,9 @@
               <h4>Контакты</h4>
               <p>
                 +80 555 55 66<br />
-                digi@gmail.com
+                <a href="mailto:digi@gmail.com" class="email">
+                  digi@gmail.com
+                </a>
               </p>
             </div>
 
@@ -433,9 +487,8 @@
         </div>
       </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>
