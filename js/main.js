@@ -1,6 +1,6 @@
 $(".owl-carousel1").owlCarousel({
   loop: true,
-  dotsContainer: ".circles",
+  nav: true,
   navContainer: ".arrows",
   smartSpeed: 1200,
   responsive: {
@@ -18,9 +18,7 @@ $(".owl-carousel1").owlCarousel({
 $(".owl-carousel2").owlCarousel({
   items: 1,
   loop: true,
-  dotsContainer: ".circles2",
+  nav: true,
   nav: false,
   smartSpeed: 1200,
-  autoplay: true,
-  autoplayTimeout: 5000,
 });

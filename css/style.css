@@ -104,6 +104,11 @@ header {
   transition: all 0.5s ease;
 }
 
+.intro .owl-theme .owl-dots {
+  position: relative;
+  top: 197px;
+}
+
 .intro h1 {
   font-size: 96px;
   line-height: 96px;
@@ -128,7 +133,6 @@ header {
   padding-top: 6px;
   border-radius: 3px;
   border: none;
-  margin-top: 28px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
@@ -310,7 +314,7 @@ header {
 }
 
 .recent-work {
-  background-image: url("/images/bg-portfolio.png");
+  background-image: url("../images/bg-portfolio.png");
   height: 618px;
   text-align: center;
 }
@@ -420,7 +424,7 @@ header {
 }
 
 .latest-news {
-  background-image: url("/images/bg-2.png");
+  background-image: url("../images/bg-2.png");
   height: 1044px;
   text-align: center;
 }
@@ -562,17 +566,6 @@ header {
   font-weight: 700;
 }
 
-.circles2 {
-  display: flex;
-  max-width: 50px;
-  justify-content: space-between;
-  margin: 80px auto 80px;
-}
-.circle2.active {
-  background-color: #2b4074;
-  border-radius: 50%;
-}
-
 .testimonial h4 {
   font-size: 24px;
   font-weight: 700;
@@ -582,10 +575,9 @@ header {
   margin-bottom: 0;
 }
 
-.testimonial div > img {
-  height: 10px;
-  padding-left: 2px;
-  padding-right: 3px;
+.testimonial .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 3px;
+  margin-bottom: -5px;
 }
 
 .footer-logo {
