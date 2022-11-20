@@ -55,7 +55,7 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 0;
+  right: 4px;
   top: 264px;
   width: 70px;
   height: 70px;
@@ -961,7 +961,7 @@ table {
   }
 
   table {
-    width: 939px;
+    max-width: 939px;
   }
 
   .widgets {
@@ -1198,7 +1198,7 @@ table {
   }
 
   table {
-    width: 690px;
+    max-width: 690px;
     height: 67.7px;
   }
 
@@ -1367,7 +1367,7 @@ table {
   }
 
   .video-block .team {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 46px auto 10px;
@@ -1385,6 +1385,7 @@ table {
   .video-block p {
     font-size: 16px;
     margin: 32px auto;
+    width: 96%;
   }
 
   .video-button {
@@ -1403,7 +1404,7 @@ table {
 
   .testimonial h3 {
     font-size: 32px;
-    width: 552px;
+    max-width: 552px;
     padding: 39px 4px 44px 26px;
   }
 
@@ -1414,12 +1415,12 @@ table {
   .footer-content h3 {
     font-size: 24px;
     line-height: 26px;
-    width: 547px;
+    width: 90%;
     padding: 96px 16px 41px 10px;
   }
 
   table {
-    width: 560px;
+    max-width: 560px;
     height: 55px;
   }
 
@@ -1484,11 +1485,55 @@ table {
     margin-top: 20px;
     margin-left: 9px;
   }
+
+  .services-items {
+    margin-top: 253px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
   .arrows {
     display: none;
+  }
+  .services-items {
+    margin-top: 231px;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .recent-work {
+    height: 1384px;
+    margin-top: 40px;
+  }
+
+  .recent-work h2 {
+    font-size: 24px;
+    padding-top: 24px;
+  }
+
+  .recent-work img {
+    width: 50px;
+  }
+
+  .portfolio .portfolio-photo {
+    width: 280px;
+    height: 250px;
+  }
+
+  .portfolio-hover {
+    height: 73%;
+    left: 14px;
+    top: 10px;
+  }
+
+  .portfolio-hover .icon {
+    width: 30px;
+    margin: 0;
+  }
+
+  .recent-work p {
+    font-size: 16px;
+    padding: 18px 20px 19px 0;
   }
 }
 
@@ -1594,40 +1639,6 @@ table {
   .item {
     width: 280px;
   }
-  .recent-work {
-    height: 1384px;
-    margin-top: 40px;
-  }
-
-  .recent-work h2 {
-    font-size: 24px;
-    padding-top: 24px;
-  }
-
-  .recent-work img {
-    width: 50px;
-  }
-
-  .portfolio .portfolio-photo {
-    width: 280px;
-    height: 250px;
-  }
-
-  .portfolio-hover {
-    height: 73%;
-    left: 14px;
-    top: 10px;
-  }
-
-  .portfolio-hover .icon {
-    width: 30px;
-    margin: 0;
-  }
-
-  .recent-work p {
-    font-size: 16px;
-    padding: 18px 20px 19px 0;
-  }
 
   .video-block {
     height: 844px;
@@ -1722,5 +1733,11 @@ table {
 
   .copyright {
     height: 142px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .copyright a,
+  .copyright a:hover {
+    position: static;
   }
 }
