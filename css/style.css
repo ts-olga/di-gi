@@ -337,26 +337,26 @@ header {
 .portfolio {
   display: flex;
   justify-content: space-between;
-  padding: 73px 151px 0;
+  margin: 73px auto 0;
+  max-width: 1130px;
 }
 
 .portfolio img {
-  width: 268px;
-  height: 239px;
+  width: 100%;
   margin-bottom: 33px;
-  margin-right: 22px;
   border-radius: 4px;
+  padding: 0 2px;
 }
 
-.photo-block {
+.portfolio .photo-block {
   position: relative;
 }
 
 .portfolio-hover {
   position: absolute;
   background-color: var(--secondary-color);
-  width: 243px;
-  height: 217px;
+  width: 90%;
+  height: 73%;
   opacity: 0.83;
   border-radius: 4px;
   left: 13px;
@@ -382,11 +382,30 @@ header {
   cursor: pointer;
 }
 
+.video-block {
+  height: 580px;
+}
+
+.team-block {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0px auto;
+  height: 100%;
+  padding: 0 11px;
+}
+
 .team {
   width: 460px;
   height: 420px;
-  margin: 51px 0 109px 151px;
   border-radius: 4px;
+  margin-top: 50px;
+}
+
+.team-content {
+  padding-left: 100px;
 }
 
 .video-block h2 {
@@ -394,6 +413,7 @@ header {
   font-weight: 400;
   font-family: "Roboto Condensed", sans-serif;
   margin: 47px 0 20px;
+  color: #4a4a4a;
 }
 
 .video-block p {
@@ -416,11 +436,6 @@ header {
   font-weight: 500;
   border: 1px solid var(--primary-color);
   background-color: white;
-}
-
-.team-content {
-  padding-left: 0;
-  margin-left: -9px;
 }
 
 .latest-news {
@@ -481,7 +496,6 @@ header {
 }
 
 .content-block img {
-  /* position: static; */
   border-radius: 4px;
   width: 268px;
   transition: all 0.3s ease-in-out;
@@ -774,13 +788,13 @@ table {
   }
 
   .services-content {
-    width: 100%;
+    width: 93%;
     margin-top: 47px;
     margin-left: 44px;
   }
 
   .services-content h2 {
-    padding-left: 395px;
+    text-align: center;
   }
 
   .services-content h5 {
@@ -808,7 +822,7 @@ table {
 
   .portfolio {
     flex-wrap: wrap;
-    padding: 73px 158px 0 182px;
+    max-width: 663px;
   }
 
   .block4 {
@@ -846,11 +860,6 @@ table {
     padding: 37px 51px 25px 0;
   }
 
-  .portfolio-hover {
-    width: 287.64px;
-    height: 256.87px;
-  }
-
   .video-block {
     height: 540px;
   }
@@ -858,11 +867,14 @@ table {
   .video-block .team {
     width: 395px;
     height: 380px;
-    margin: 79px 0 0 46px;
+    margin-top: 79px;
+  }
+  .wrapper {
+    padding: 0 40px;
   }
 
   .team-content {
-    margin-left: -11px;
+    padding-left: 60px;
   }
 
   .team-content h2 {
@@ -875,7 +887,7 @@ table {
 
   .video-block p {
     margin-top: 11px;
-    width: 523px;
+    max-width: 523px;
   }
 
   .video-button {
@@ -950,7 +962,7 @@ table {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .container {
     max-width: 768px;
   }
@@ -963,16 +975,20 @@ table {
     height: 465px;
   }
 
+  .intro .owl-theme .owl-dots {
+    top: 142px;
+  }
+
   .intro h1 {
     font-size: 60px;
     line-height: 60px;
     padding: 83px 0 28px;
-    margin-left: 130px;
+    margin: auto;
     letter-spacing: 0;
   }
 
   .intro h2 {
-    margin-left: 93px;
+    margin: auto;
   }
 
   .arrows {
@@ -997,6 +1013,7 @@ table {
   .promo h5 {
     font-size: 24px;
     line-height: 24px;
+    max-width: 62%;
   }
 
   .promo p {
@@ -1019,7 +1036,6 @@ table {
 
   .services-content h2 {
     margin-top: -2px;
-    padding-left: 272px;
   }
 
   .services-content h5 {
@@ -1027,7 +1043,7 @@ table {
   }
 
   .services-content p {
-    width: 689px;
+    max-width: 689px;
     padding-top: 25px;
   }
 
@@ -1039,10 +1055,6 @@ table {
   .item {
     width: 50%;
     height: 335px;
-  }
-
-  .portfolio {
-    padding: 72px 33px 0 50px;
   }
 
   .photo-block .portfolio-photo {
@@ -1061,7 +1073,7 @@ table {
   }
 
   .team-content {
-    margin-left: -66px;
+    padding-left: 33px;
   }
 
   .team-content img {
@@ -1176,6 +1188,45 @@ table {
   }
 }
 
+@media only screen and (max-width: 716px) {
+  .recent-work {
+    height: 2288px;
+  }
+
+  .portfolio {
+    margin-top: 36px;
+    justify-content: center;
+  }
+
+  .portfolio .portfolio-photo {
+    width: 518px;
+    height: 460px;
+  }
+
+  .recent-work h2 {
+    padding-top: 35px;
+    padding-bottom: 9px;
+  }
+
+  .recent-work p {
+    font-size: 20px;
+    padding: 19px 20px 18px 0;
+  }
+
+  .portfolio-hover {
+    width: 89%;
+    height: 80%;
+    left: 24px;
+    top: 21px;
+  }
+
+  .portfolio-hover .icon {
+    width: 56px;
+    height: 56px;
+    margin: 0px 3px 0;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .container {
     max-width: 640px;
@@ -1195,7 +1246,7 @@ table {
 
   .intro h1 {
     padding-top: 59px;
-    margin-left: 64px;
+    margin: auto;
   }
 
   .intro h2 {
@@ -1203,13 +1254,17 @@ table {
   }
 
   .arrows {
-    top: 138px;
+    top: 132px;
   }
 
   .main-button {
-    margin-top: 16px;
+    margin-top: -12px;
     margin-bottom: 3px;
     padding-top: 3px;
+  }
+
+  .intro .owl-theme .owl-dots {
+    top: 113px;
   }
 
   .promo {
@@ -1217,14 +1272,19 @@ table {
     text-align: center;
     padding: 48px 0;
   }
+
   .promo-button {
-    left: 220px;
-    top: 164px;
+    position: static;
+    margin-top: 6%;
+  }
+
+  .promo h5 {
+    max-width: 100%;
   }
 
   .promo-content p {
-    width: 580px;
-    margin: 16px 0 0 27px;
+    width: 95%;
+    margin: 16px auto 0;
   }
 
   .services {
@@ -1233,12 +1293,8 @@ table {
 
   .services-content {
     text-align: center;
-    width: 559px;
+    max-width: 559px;
     margin: 20px auto 0;
-  }
-
-  .services-content h2 {
-    padding-left: 0;
   }
 
   .services-content h5 {
@@ -1246,7 +1302,7 @@ table {
   }
 
   .services-content p {
-    width: 559px;
+    width: 98%;
   }
 
   .services-items {
@@ -1258,82 +1314,43 @@ table {
     padding-top: 99px;
   }
 
-  .recent-work {
-    height: 2288px;
-  }
-
-  .recent-work h2 {
-    padding-top: 35px;
-    padding-bottom: 9px;
-  }
-
   .recent-work img {
     height: 8px;
-  }
-
-  .portfolio {
-    padding: 36px 0 0 61px;
-  }
-
-  .portfolio .portfolio-photo {
-    width: 518px;
-    height: 460px;
-  }
-
-  .recent-work p {
-    font-size: 20px;
-    padding: 19px 20px 18px 0;
-  }
-
-  .portfolio-hover {
-    width: 468.68px;
-    height: 417.66px;
-    left: 24px;
-    top: 21px;
-  }
-
-  .portfolio-hover .icon {
-    width: 56px;
-    height: 56px;
-    margin: 0px 3px 0;
   }
 
   .video-block {
     height: 1007px;
   }
 
-  .video-block .row {
+  .team-block {
     flex-direction: column;
-    align-content: center;
   }
 
   .video-block .team {
     width: 520px;
     height: 478px;
-    margin: 46px 0 0 -106px;
+    display: block;
+    margin: 46px auto 0;
   }
 
   .team-content {
     text-align: center;
-  }
-
-  .team-content img {
-    margin-left: 146px;
+    padding-left: 0;
   }
 
   .video-block h2 {
-    margin: 48px 0 10px 145px;
+    margin-top: 48px;
   }
 
   .video-block p {
     width: 518px;
     font-size: 16px;
-    margin: 32px 0 0 -29px;
+    margin: 32px auto;
   }
 
   .video-button {
-    margin-top: 74px;
-    margin-left: 117px;
+    margin: 74px auto 0;
+    display: block;
   }
 
   .latest-news h2 {
@@ -1385,7 +1402,13 @@ table {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 470px) {
+  .arrows {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
   .container {
     max-width: 320px;
   }
@@ -1412,9 +1435,12 @@ table {
     padding-top: 44px;
   }
 
-  .intro .main-button,
-  .arrows {
+  .intro .main-button {
     display: none;
+  }
+
+  .intro .owl-theme .owl-dots {
+    top: 17px;
   }
 
   .page-nav img {
@@ -1437,8 +1463,7 @@ table {
   }
 
   .promo-button {
-    left: 60px;
-    top: 211px;
+    margin-top: 11%;
   }
 
   .services {
@@ -1485,7 +1510,6 @@ table {
   .item {
     width: 280px;
   }
-
   .recent-work {
     height: 1384px;
     margin-top: 40px;
@@ -1500,18 +1524,13 @@ table {
     width: 50px;
   }
 
-  .portfolio {
-    padding-left: 19px;
-  }
-
   .portfolio .portfolio-photo {
     width: 280px;
     height: 250px;
   }
 
   .portfolio-hover {
-    width: 253.88px;
-    height: 226.99px;
+    height: 73%;
     left: 14px;
     top: 10px;
   }
@@ -1533,27 +1552,26 @@ table {
   .video-block .team {
     width: 281.08px;
     height: 243.88px;
-    margin: 19px 0 0 -69px;
+    margin-top: 19px;
   }
 
   .video-block h2 {
     font-size: 24px;
-    margin: 37px 0 11px 107px;
+    margin-top: 37px;
   }
 
   .team-content img {
     width: 45px;
     height: 8px;
-    margin-left: 129px;
   }
 
   .video-block p {
     width: 280px;
-    margin: 16px 0 0 11px;
+    margin-top: 16px;
   }
 
   .video-button {
-    margin: 102px 0 0 37px;
+    margin-top: 102px;
   }
 
   .latest-news {
