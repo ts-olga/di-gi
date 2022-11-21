@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   padding: 0;
 }
 
@@ -28,16 +28,25 @@ button {
   margin-bottom: 0;
 }
 
+.wrapper-block {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 header {
   background-color: var(--primary-color);
   height: 100px;
   padding: 17px 61px;
+}
+
+header .wrapper-block,
+.promo .wrapper-block {
   position: relative;
 }
 
 .menu-button {
   position: absolute;
-  top: 30px;
+  top: 13px;
   right: 150px;
 }
 
@@ -183,7 +192,7 @@ header {
   text-transform: uppercase;
   border: none;
   position: absolute;
-  top: 71px;
+  top: 10px;
   right: 149px;
   transition: all 0.2s ease-in-out;
 }
@@ -198,7 +207,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 546px;
-  margin-left: 62px;
+  max-width: 1140px;
 }
 
 .services-content {
@@ -768,11 +777,17 @@ table {
     max-width: 1024px;
   }
 
+  header .wrapper-block,
+  .promo .wrapper-block {
+    position: static;
+  }
+
   header {
     padding: 17px 46px;
   }
 
   .menu-button {
+    top: 30px;
     right: 42px;
   }
 
@@ -1076,6 +1091,11 @@ table {
 @media only screen and (max-width: 770px) {
   .container {
     max-width: 768px;
+  }
+
+  header .wrapper-block,
+  .promo .wrapper-block {
+    position: static;
   }
 
   header {
